@@ -3,6 +3,16 @@ import jwt from "jsonwebtoken";
 import User from "../models/User.js";
 
 
+export const home = async (req, res) => {
+  try {
+    res.status(201).json("welcome user");
+  } catch (err) {
+    console.log(err)
+     res.status(500).json({ error: err.message });
+  }
+}
+
+
 /* REGISTER USER */
 export const register = async (req, res) => {
   try {
