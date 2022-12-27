@@ -8,4 +8,6 @@ Building Step by Step
  
 * added database
 * added route to add user
+* login user
+* autheraisation using jwt
 
