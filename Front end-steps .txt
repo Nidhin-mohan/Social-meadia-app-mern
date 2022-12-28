@@ -1,0 +1,10 @@
+Building Step by Step
+
+* installed packeges
+npm i react-redux @reduxjs/tookit redux-persist react-dropzone dotenv formik yup react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material
+ 
+* added database
+* added route to add user
+* login user
+* autheraisation using jwt
+
